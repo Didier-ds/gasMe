@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    margin: 25px;
+    font-size: 35px;
+}
+
+img {
+    width: 5%;
+    height: 5%;
+    margin: 10px 10px 10px 25px;
+}
+
+.field {
+    display: block;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+input[type="text"],
+select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(238, 234, 234);
+}
+
+#email {
+    display: flex;
+}
+
+#password {
+    display: flex;
+}
+
+button {
+    width: 40%;
+    padding: 12px 28px;
+    border-radius: 8px;
+    margin-top: 35px;
+    margin-left: 25px;
+    color: white;
+    background-color: green;
+}
+
+main p {
+    color: green;
+    margin-left: 25px;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+}
+
+span {
+    color: green;
+}
+
+.location {
+    margin-left: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 15%;
+        height: 15%;
+    }
+    h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+    input[type="text"],
+    select {
+        width: 30%;
+        padding: 5px 9px;
+    }
+    button {
+        width: 30%;
+        padding: 5px 9px;
+    }
+    p,
+    footer {
+        font-size: small;
+    }
+    footer {
+        text-align: center;
+    }
+    .location {
+        margin-right: 40px;
+    }
+}
