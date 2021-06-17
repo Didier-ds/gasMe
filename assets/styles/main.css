@@ -98,6 +98,16 @@ button {
   color: green;
 }
 
+.terms input {
+  height: auto;
+  width: auto;
+}
+
+.terms label {
+  display: inline-block;
+  vertical-align: sub;
+}
+
 .noAccount {
   text-align: center;
   margin: 1em 0.5em;
