@@ -9,21 +9,41 @@
     <link rel="stylesheet" href="assets/styles/main.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,900&display=swap" rel="stylesheet" />
+    <style>
+        .input-container {
+            margin: .5em 0;
+        }
+        
+        .head-text {
+            margin: .5em 0 0 0;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <div id="logo">
-            <img src="assets/images/logo.svg" alt="logo" />
-        </div>
+
 
     </header>
 
     <main>
         <div id="form-container">
-            <h2 class="head-text">Welcome back.</h2>
+            <div id="logo">
+                <img src="assets/images/logo.svg" alt="logo" />
+            </div>
+            <h2 class="head-text">Create an account.</h2>
             <div class="form-content">
                 <form action="/action_page.php">
+                    <div class="form-group">
+                        <div class="input-container">
+                            <label for="firstname">firstName</label>
+                            <input type="text" id="firstname" name="firstnsme" placeholder="hello@gmail.com" />
+                        </div>
+                        <div class="input-container">
+                            <label for="firstname">LastName</label>
+                            <input type="text" id="firstname" name="firstname" placeholder="hello@gmail.com" />
+                        </div>
+                    </div>
                     <div class="input-container">
                         <label for="email">Email Address</label>
                         <input type="text" id="email" name="email" placeholder="hello@gmail.com" />
@@ -45,9 +65,6 @@
             <div class="map-mockup">
                 <img src="assets/images/map-phone.svg " alt="location " />
             </div>
-
-            <p class="advert-map-caption">Get connected to the <span class="text-green">best</span> and<br> closest <span class="text-green">Gas</span> stations</p>
-
         </div>
     </main>
     <footer></footer>
