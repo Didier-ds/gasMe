@@ -1,3 +1,23 @@
+<template>
+  
+    <router-view />
+  
+  
+</template>
+
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+#body {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 80%;
+}
 body {
     width: 90%;
     margin: 0 auto;
@@ -5,7 +25,7 @@ body {
 }
 
 #logo {
-    margin: 2em 0;
+    margin: 1.8em 0;
 }
 
 main {
@@ -16,7 +36,7 @@ main {
 .head-text {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    margin: 1em .5em 0 0;
+    margin: .7em .5em 0 0;
     font-size: 2.5em;
 }
 
@@ -137,3 +157,6 @@ button {
         padding: 5px 9px;
     }
 }
+
+
+</style>

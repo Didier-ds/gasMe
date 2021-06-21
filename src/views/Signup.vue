@@ -1,35 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome Page</title>
-    <link rel="stylesheet" href="assets/styles/main.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,900&display=swap" rel="stylesheet" />
-    <style>
-        .input-container {
-            margin: .5em 0;
-        }
-        
-        .head-text {
-            margin: .5em 0 0 0;
-        }
-    </style>
-</head>
-
-<body>
-    <header>
-
-
-    </header>
-
-    <main>
+<template>
+  <main>
         <div id="form-container">
             <div id="logo">
-                <img src="assets/images/logo.svg" alt="logo" />
+                <img src="/img/logo.svg" alt="logo" />
             </div>
             <h2 class="head-text">Create an account.</h2>
             <div class="form-content">
@@ -63,11 +36,13 @@
         <div id="advert-container">
 
             <div class="map-mockup">
-                <img src="assets/images/map-phone.png " alt="location " />
+                <img src="/img/map-phone.png " alt="location " />
             </div>
         </div>
     </main>
-    <footer></footer>
-</body>
-
-</html>
+</template>
+<script>
+export default {
+    name: "Signup"
+}
+</script>
