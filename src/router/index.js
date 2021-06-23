@@ -1,14 +1,15 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import signin from "../views/Signin.vue";
+// import Dashboard from "../views/Dashboard.vue";
 import AddStation from "../views/AddStation.vue";
 import signup from "../views/Signup.vue";
 // import Account from "../views/Account.vue";
 const routes = [{
         path: "/",
-        name: "Signin",
-        component: signin
-
+        name: "Dashboard",
+        component: function() {
+            return import ( /* webpackChunkName: "about" */ "../views/Dashboard.vue");
+        }
     },
     {
         path: "/signup",

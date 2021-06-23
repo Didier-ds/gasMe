@@ -1,0 +1,4 @@
+@mixin display($type, $justify) {
+    display: $type;
+    justify-content: $justify;
+}
