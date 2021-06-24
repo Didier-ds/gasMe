@@ -28,9 +28,9 @@ export default {
 <style lang="scss">
  #map {
      width: 100%;
-     margin: 0 auto;
-     height: 15em;
+     margin: 1em auto;
+     height: 20em;
      border-radius: 1em;
-     filter:drop-shadow(0px 5px 30px rgba(196, 196, 196, 0.85));
+     box-shadow: 0px 0px 4px #E5E5E5;
  }
 </style>

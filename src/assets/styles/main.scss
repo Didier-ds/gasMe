@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-body {
+#body {
     width: 95%;
     margin: 0 auto;
     font-size: 80%;
 }
 
 @media (min-width:1024px) {
-    body {
+    #body {
         width: 90%;
     }
 }

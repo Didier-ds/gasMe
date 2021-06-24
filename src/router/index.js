@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 // import Dashboard from "../views/Dashboard.vue";
 import AddStation from "../views/AddStation.vue";
 import signup from "../views/Signup.vue";
+import StationDetails from "../views/StationDetails.vue";
 // import Account from "../views/Account.vue";
 const routes = [{
         path: "/",
@@ -21,6 +22,12 @@ const routes = [{
         path: "/addstation",
         name: "AddStation",
         component: AddStation
+
+    },
+    {
+        path: "/StationDetails/:id",
+        name: "StationDetails",
+        component: StationDetails
 
     },
     // {

@@ -2,3 +2,11 @@
     display: $type;
     justify-content: $justify;
 }
+
+@mixin highlight-text($bgcolor, $color) {
+    color: $color;
+    background-color: $bgcolor;
+    padding: .4em .8em;
+    border-radius: 1em;
+    font-size: .8em;
+}
